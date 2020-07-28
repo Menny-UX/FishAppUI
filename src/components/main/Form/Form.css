@@ -1,0 +1,65 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem 2rem;
+}
+.editForm__container .ant-btn{
+    align-self: flex-end;
+    margin: 1rem 6rem 0rem;
+}
+p{
+    margin-bottom: auto;
+}
+.doubleCellForm__wrapper .form_container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.doubleCellForm__wrapper .ant-form-item {
+    width: 45%;
+}
+.doubleCellForm__wrapper .ant-form-item:nth-child(odd) {
+    margin-left: 4rem;
+    margin-right: 2rem;
+}
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector ,
+.ant-input{
+    border-radius: 0px;
+}
+.ant-select-single.ant-select-sm:not(.ant-select-customize-input) .ant-select-selector {
+    margin-top: .6rem;
+    padding: 0 7px;
+}
+.ant-form-item-control-input-content .ant-input:focus {
+    padding: 0px;
+}
+.ant-form-item{
+    height: 7rem;
+}
+.form__sectionDivider{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.form__sectionDivider-text{
+    color: var(--color-gray-light-3);
+    position: relative;
+    margin: 0 1rem;
+}
+.form__sectionDivider-text::before{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 3px;
+    height: 100%;
+    margin: 0 -1rem 0 0;
+    background-color: var(--color-gray-light-3);
+}
+.form__sectionDivider .ant-divider-horizontal {
+    margin: 24px 0 10px;
+}

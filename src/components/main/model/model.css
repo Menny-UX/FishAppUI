@@ -1,0 +1,43 @@
+/* .ant-modal-footer .ant-btn{
+    display: none;
+} */
+.ant-modal-footer {
+    display: none;
+}
+.ant-modal-wrap {
+    display: flex;
+    height: 100vh;
+}
+.ant-modal{
+    width: 70rem !important;
+    margin: 0 auto;
+    top: auto;
+    padding: auto;
+}
+.ant-modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    border-radius: 3.5rem;
+}
+.ant-modal-header {
+    direction: rtl;
+    border-bottom: 0px;
+    border-radius: 3.5rem 3.5rem 0 0;
+}
+.ant-modal-close {
+    left: 0;
+    right: auto;
+}
+.ant-modal-close-x {
+    padding: 1rem 3rem;
+
+}
+.ant-modal-title {
+    padding: 4rem 5rem 0rem;
+}
+.ant-modal-mask {
+    background-color: rgba(0, 0, 0, 0.75);
+}

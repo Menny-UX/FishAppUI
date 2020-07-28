@@ -1,0 +1,11 @@
+.ant-steps-vertical.ant-steps-dot .ant-steps-item > .ant-steps-item-container > .ant-steps-item-tail {
+    right: 19px;
+}
+.ant-steps-item-container {
+    display: flex;
+}
+.ant-steps-vertical {
+    width: 100%;
+    justify-content: space-between;
+    height: 33rem;
+}

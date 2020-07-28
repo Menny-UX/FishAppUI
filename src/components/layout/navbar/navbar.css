@@ -1,0 +1,36 @@
+.navbar__container{
+    background-color: var(--color-css-primary);
+    width: calc(100% - 280px);
+    height: 7rem;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 1.2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+.navbar__item a{
+    color: var(--color-css-secondary);
+    text-align: center;
+}
+.navbar__item-active a{
+    color: var(--color-white);
+    font-weight: bolder;
+}
+.navbar__item,
+.navbar__item-active{
+    position: relative;
+    padding: 0 6rem;
+    text-align: center;
+}
+.navbar__item-active::after{
+    content: '';
+    display: block;
+    background-color: white;
+    height: 0.3rem;
+    width: 100%;
+    position: absolute;
+    bottom: -1.1rem;
+    right: 0;
+}

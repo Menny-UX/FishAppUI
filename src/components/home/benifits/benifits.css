@@ -1,0 +1,39 @@
+.benifits__container{
+    width: 96vw;
+    padding: 1rem 9rem;
+}
+.benifit__features{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin: var(--margin-medium);
+    margin-bottom: var(--margin-xlarge);
+}
+.benifit_feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+}
+.feature_icon img{
+    width: 3rem;
+    height: 100%;
+}
+.feature_icon{
+    background-color: var(--color-css-secondary);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 2px 4px 6px var(--color-shadow);
+    margin-bottom: var(--margin-small);
+}
+.feature_title{
+    color: var(--color-css-primary);
+    font-size: 2rem;
+    margin-bottom: var(--margin-small);
+}
+.feature_text{
+    width: 32rem;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,80 @@
+.ant-btn,
+.ant-btn-primary{
+    width: 18rem;
+    height:4rem;
+    border-radius: 25rem;
+    margin: 1rem 0 1rem;
+    background-color: transparent;
+}
+.ant-btn-primary{
+    color: var(--color-white); 
+    border: 1px solid var(--color-css-primary);
+}
+.ant-btn{
+    border: 1px solid var(--color-css-primary);
+    color: var(--color-css-primary); 
+}
+.ant-btn:hover,
+.ant-btn-primary:hover{
+    background-color: calc(rgba(color, .5));
+}
+.ant-btn.ant-btn-dangerous {
+    color: #ff4d4f;
+    border: 1px solid #ff4d4f;
+}
+.ant-btn-primary:hover, 
+.ant-btn-primary:focus {
+    color: #fff;
+    background: #5aaebf;
+    border-color: #5aaebf;
+}
+.ant-btn.ant-btn-primary.txcolor-primary:hover {
+    color: #fff;
+}
+.ant-btn.bgcolor-white{
+    background-color: white;
+}
+.ant-btn.bgcolor-white:hover{
+    background-color: rgba(55, 154, 178,.3);
+    border-color: rgba(55, 154, 178,.6);
+}
+.action__panel .ant-btn.bgcolor-white:hover{
+    background-color: rgba(55, 154, 178,.3);
+    border-color: white;
+    color: white;
+}
+.action__panel .ant-btn.ant-btn-dangerous:hover{
+    background-color: rgba(255, 77, 79,.3);
+}
+.ant-btn.ant-btn-dangerous.bgcolor-white:hover{
+    background-color: rgba(255, 77, 79,.3);
+    border: 1px solid rgba(255, 77, 79,.6);
+    color: auto;
+}
+.ant-btn.bgcolor-primary{
+    background-color: var(--color-css-primary);
+}
+.ant-btn.bgcolor-primary:hover{
+    background-color: #5aaebf;
+    border-color: #5aaebf;
+}
+.ant-btn.txcolor-white{
+    color :  white;
+}
+.ant-btn.txcolor-primary{
+    color : var(--color-css-primary);
+}
+.center_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ant-btn-text {
+    color: var(--color-css-primary);
+    border: 0px solid transparent;
+}
+.center_items svg{
+    width: 1.5rem;
+    margin-right: 5px;
+}

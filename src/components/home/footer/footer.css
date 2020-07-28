@@ -1,0 +1,8 @@
+.home_footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: #1A737F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

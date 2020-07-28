@@ -1,0 +1,102 @@
+.navigation__wrapper{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+}
+.navigation__button{
+    position: absolute;
+    top:15%;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-between;
+}
+.basic__navigation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0 1rem 1rem 0;
+
+}
+.nav__item{
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+/* .basic__navigation .nav__item:not(:last-child):after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70%;
+    height: 1px;
+    background-color:lightgrey;
+} */
+.basic__navigation .nav__item:not(:last-child){
+    box-shadow: 1px 1px 2px var(--color-shadow);
+}
+.navigation__button[data-state='moved']{
+    transform: translateX(25rem);
+}
+.nav__item svg{
+    width:2rem;
+    height: 2rem;
+}
+.delete__item .nav__item{
+    background-color: #FF7285;
+    border-radius: 0 1rem 1rem 0;
+    color: var(--color-white);
+}
+.navigation__settings[data-state="display"]{
+    display: block;
+}
+.navigation__settings[data-state="hide"]{
+    display: none;
+}
+.navigation__settings{
+    width:25rem;
+    background-color:white;
+    height: 100%;
+    border-radius: 3.5rem;
+}
+.navigation__settings .ant-btn {
+    width: 10rem;
+    height: 3.4rem;
+    border-radius: 25rem;
+    margin: 1.5rem 2rem 2rem;
+    align-self: flex-end;
+}
+.filter__form{
+
+}
+.filter__form .ant-form .ant-row {
+    margin: 0rem 1.2rem;
+}
+.selected__list-toggle .main__heading{
+    font-size: 1.3rem;
+    padding: 0 2rem 1rem 0;
+}
+.selected__layer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 1rem;
+}
+.selected__layer .selected__name{
+    font-size: 1.2rem
+}
+.selected__layer[data-state="show"]{
+    color: var(--color-css-primary);
+}
+.selected__layer[data-state="hide"]{
+    color: var(--color-gray-dark-2);
+}
+.selected__state svg{
+    width: 1.4rem;
+}

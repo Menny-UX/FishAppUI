@@ -1,0 +1,7 @@
+.content__wrapper{
+    /* width: 105rem; */
+    background-color: white;
+    padding: 3rem 6rem 2rem;
+    border-radius: 3.5rem;
+    box-shadow:  2px 3px 6px var(--color-shadow);
+}

@@ -1,0 +1,62 @@
+.Register__container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.Register__image{
+    width: 50%;
+    height: 100%;
+    background-image: url(/static/media/fishBox.6fe23fc7.png);
+    background-color: rgba(55, 153, 178, 0.55);
+    background-blend-mode: overlay;
+    background-position: top;
+    background-size: cover;
+}
+.register__text{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--color-css-primary);
+}
+.register__Heading{
+    color: var(--color-white);
+    position: relative;
+    margin: 0 22% 3rem;
+    height: 10rem;
+    width: 32rem;
+    letter-spacing: 0.13rem;
+}
+.register__Heading::before{
+    margin-top: -2rem;
+    right: -3rem;
+    content: "";
+    display: block;
+    position: absolute;
+    width: .5rem;
+    height: 10rem;
+    background-color: var(--color-white);
+}
+.RegisterForm__container{
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: 0 auto;
+    width: 50rem;
+    border-radius: 2.5rem;
+}
+.register__Title{
+    padding: 3rem 0 0 0;
+    width: 35rem;
+    margin: auto;
+}
+.supporting__logos{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    align-items: center;
+}
+.circled__logos img{
+    width: 6rem;
+}
+.typography__logos img{
+    width: 10rem;
+}

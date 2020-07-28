@@ -1,0 +1,15 @@
+.collapsable__Sections .ant-collapse .ant-collapse-item.Error_Found .ant-collapse-header[aria-expanded="true"]::before ,
+.collapsable__Sections .ant-collapse .ant-collapse-item.Error_Found .ant-collapse-header[aria-expanded="false"]::before {
+    background-color: rgb(255, 114, 133);
+}
+.collapsable__Sections .ant-collapse .ant-collapse-item.Error_Found .ant-collapse-header[aria-expanded="true"] ,
+.collapsable__Sections .ant-collapse .ant-collapse-item.Error_Found .ant-collapse-header[aria-expanded="false"] {
+    color:  rgb(255, 114, 133);
+}
+.collapsable__Sections .ant-collapse .ant-collapse-item .ant-collapse-header[aria-expanded="true"] {
+    font-weight: bolder;
+    color: var(--color-css-primary);
+}
+.collapsable__Sections .ant-collapse .ant-collapse-item .ant-collapse-header[aria-expanded="false"] {
+    color: var(--color-gray-light-3);
+}

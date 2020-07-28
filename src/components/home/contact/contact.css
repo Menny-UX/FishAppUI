@@ -1,0 +1,35 @@
+.contact__container{
+    width: 100vw;
+    padding: 1rem 9rem;
+    background-image: linear-gradient(rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url(../../../images/home/contact.jpg);
+    height: 85vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.contact__text{
+    width: 50rem;
+    text-align: right;
+    padding-right: 4rem; 
+    font-size: 2rem;
+    color: var(--color-white);
+}
+.contact__right .contact__text{
+    margin-top: var(--margin-medium);
+}
+.contact__left,
+.contact__right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact__form-background{
+    background-color: rgba(255, 255, 255, 0.65);
+    margin: auto;
+    padding: 0 4rem;
+    width: 65rem;
+    border-radius: 2.5rem;
+}

@@ -1,0 +1,34 @@
+.about__container{
+    width: 95vw;
+    height: 70vh ;
+    padding: 2rem;
+    display: flex;
+}
+.about__left,
+.about__right{
+    width: 50%;
+    display: flex;
+}
+.about__right{
+    flex-direction: column;
+}   
+.about__image{
+    background-image: url(./../../../images/home/about.jpg);
+    width: 50rem;
+    height: 40rem;
+    border-radius: 2.5rem;
+    background-size: cover;
+    margin: auto;
+    box-shadow: 2px 4px 6px var(--color-shadow);
+}
+.about__right{
+    padding: 0 5rem;
+}
+.about__text--paragraph{
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.about__text{
+    padding: 0 4rem;
+}

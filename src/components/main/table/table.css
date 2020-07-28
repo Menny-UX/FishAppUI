@@ -1,0 +1,91 @@
+.center__item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table__Actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ant-table-thead > tr > th ,
+.ant-table table {
+    text-align: right;
+}
+.ant-table-ping-right .ant-table-cell-fix-right-first::after, .ant-table-ping-right .ant-table-cell-fix-right-last::after {
+    box-shadow:  0px; 
+}
+.ant-table-cell-fix-right-first::after, .ant-table-cell-fix-right-last::after {
+    width: 0px;
+} 
+.ant-table-cell  .ant-btn-primary{
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: transparent;
+    margin: 0;
+}
+/* .ant-table-cell .ant-btn-primary:hover{
+    background-color: rgba(191, 238, 237, 0.6);
+    border:  rgba(var(--color-css-primary), 0.4 );
+} */
+.default__actionColor.ant-btn-primary:hover{
+    background-color: rgba(191, 238, 237, 0.6);
+    border:  rgba(191, 238, 237, 0.4 );
+}
+.warning__actionColor.ant-btn-primary:hover{
+    background-color: rgba(255, 114, 133, 0.6);
+    border:  rgba(255, 114, 133, 0.4 );
+}
+.ant-space-item{
+    margin-right: 0;
+    margin-left: 1.6rem;
+}
+.ant-table-cell .ant-btn-primary svg {
+    width: 1.4rem;
+    height: 1.4rem;
+    color: var(--color-css-primary);
+}
+.warning__actionColor.ant-btn-primary svg{
+    color: #FF7285;
+
+}
+.default__actionColor  .ant-btn-primary svg:hover{
+    color: var(--color-white);
+}
+.warning__actionColor .ant-btn-primary svg:hover{
+    color: var(--color-white);
+}
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-right: auto;
+    padding-left: 18px;
+}
+.ant-pagination-prev, 
+.ant-pagination-next, 
+.ant-pagination-jump-prev, 
+.ant-pagination-jump-next {
+    transform: rotate(180deg);
+}
+.parentRow__discription,
+.parent__properties,
+.property__item{
+    display: flex;
+    align-items: center;
+    margin:0 1.5rem;
+
+}
+.parentRow__discription{
+    justify-content: space-between;
+}
+.property__item div{
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+.property__name{
+    font-weight: bolder;
+}
+.property__value{
+    font-size: 1.2rem;
+}

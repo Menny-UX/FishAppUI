@@ -1,0 +1,10 @@
+.admin__container{
+    width:100vw;
+    height: fit-content;
+ 
+}
+.content__container{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: flex-end;
+}
